@@ -35,7 +35,7 @@ client.commands = new Discord.Collection();
 client.config = config;
 client.db = db;
 client.discord = Discord;
-client.prefix = config.prefix;
+client.prefix = "e!";
 client.prefixes = prefixes;
 
 // time constants
@@ -199,4 +199,4 @@ setInterval(function() { // goes through each server and its events to check if 
 }, TIMEOUT);
 
 // login with token (shhh it's a secret)
-client.login(config.token);
+client.login(NzcyODkyNDc1MDQzMjE3NDIw.X6BSNQ.gVt6f2wqvHjCzaze44zQpezucdQ);
